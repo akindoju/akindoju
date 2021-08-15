@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import WOW from "wowjs";
 import "./Skills.scss";
 
 const Skills = () => {
+  useEffect(() => {
+    const wow = new WOW.WOW();
+    wow.init();
+  }, []);
+
   return (
     <section className="skills">
       <h1 className="sectionTitle">Skills</h1>
@@ -23,7 +29,12 @@ const Skills = () => {
             ></path>
           </svg>
 
-          <h4 className="skills__details--name">HTML5</h4>
+          <h4
+            className="skills__details--name wow fadeIn"
+            data-wow-delay="0.4s"
+          >
+            HTML5
+          </h4>
         </div>
 
         <div className="skills__details">

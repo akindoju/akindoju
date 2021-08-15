@@ -45,6 +45,42 @@
   }
 }
 
+.navigation.active {
+  width: 100%;
+  background-color: rgba(black, 0.8);
+  z-index: 1000;
+
+  li {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin-left: 5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+
+    //for outwards underline
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -5px;
+      height: 3px;
+      background: white;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+      backface-visibility: none;
+    }
+
+    &:hover::after {
+      width: 80%;
+      left: 10%;
+    }
+  }
+}
+
 .headerContainer {
   height: 100vh;
   background-image: linear-gradient(

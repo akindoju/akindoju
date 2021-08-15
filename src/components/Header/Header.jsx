@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
 
 const Header = () => {
+  const [navBarActive, setNavBarActive] = useState(false);
+
+  const settingNavBar = () => {
+    window.scrollY >= 650 ? setNavBarActive(true) : setNavBarActive(false);
+    console.log(window.scrollY);
+  };
+
+  window.addEventListener("scroll", settingNavBar);
+
   return (
     <section className="headerContainer">
-      <ul className="navigation">
+      <ul className={navBarActive ? "navigation active" : "navigation"}>
         <li>Skills</li>
         <li>Experience</li>
         <li>Project</li>
