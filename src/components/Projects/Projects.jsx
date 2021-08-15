@@ -3,6 +3,7 @@ import "./Projects.scss";
 import converse from "../../img/converse.png";
 import notebook from "../../img/notebook.png";
 import generator from "../../img/generator.png";
+import konga from "../../img/konga.png";
 import css_project from "../../img/css_project.jpg";
 
 const Projects = () => {
@@ -95,6 +96,36 @@ const Projects = () => {
           <h4>
             Project created with react js, css, to dynamically generator
             barcodes based on given input and formats, and also Qr codes.
+          </h4>
+        </div>
+      </div>
+
+      <div className="projects__container">
+        <img src={konga} alt="Barcode and Qr Code generator" />
+
+        <div className="projects__container--text">
+          <h1>Konga Clone</h1>
+
+          <div className="projects__container--text-links">
+            <a
+              href="https://akindoju-konga-clone.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/akindoju/konga-clone"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Repo
+            </a>
+          </div>
+
+          <h4>
+            Project created with react js and sass, to illustrate extensively
+            the power of css grid and flexbox.
           </h4>
         </div>
       </div>

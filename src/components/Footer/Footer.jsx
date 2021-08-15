@@ -9,10 +9,10 @@ const Footer = () => {
       </h1>
 
       <p>
-        I wrote my first line of code in my second year and fast forward a year
-        later, I am a javascript react developer. During that time I have been
-        able to learn the fundamentals of web developement. I am passionate
-        about improving my skills and learning new technologies.
+        I wrote my first line of code in my second year of university and fast
+        forward a year later, I am a javascript react developer. During that
+        time I have been able to learn the fundamentals of web developement. I
+        am passionate about improving my skills and learning new technologies.
       </p>
 
       <h4>Contact:</h4>
