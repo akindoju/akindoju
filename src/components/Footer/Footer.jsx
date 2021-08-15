@@ -11,8 +11,8 @@ const Footer = () => {
       <p>
         I wrote my first line of code in my second year and fast forward a year
         later, I am a javascript react developer. During that time I have been
-        able to learn the fundamentals of html,css and javascript.I am
-        passionate about improving my skills and learning new technologies.
+        able to learn the fundamentals of web developement. I am passionate
+        about improving my skills and learning new technologies.
       </p>
 
       <h4>Contact:</h4>
