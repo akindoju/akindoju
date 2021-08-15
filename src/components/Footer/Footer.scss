@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(black, 0.8);
+  padding: 3rem;
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    width: 60%;
+    font-style: italic;
+  }
+
+  h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 3rem;
+    font-weight: 300;
+  }
+
+  a {
+    &:visited,
+    &:link {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      color: white;
+      text-decoration: none;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        height: 1px;
+        background: white;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+        backface-visibility: none;
+      }
+
+      &:hover::after {
+        width: 80%;
+        left: 10%;
+      }
+    }
+  }
+}
