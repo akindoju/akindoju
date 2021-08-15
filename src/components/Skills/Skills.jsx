@@ -13,7 +13,7 @@ const Skills = () => {
       <h1 className="sectionTitle">Skills</h1>
 
       <div className="skills__content">
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.1s">
           <svg
             className="skills__details--icon"
             version="1.1"
@@ -29,15 +29,10 @@ const Skills = () => {
             ></path>
           </svg>
 
-          <h4
-            className="skills__details--name wow fadeIn"
-            data-wow-delay="0.4s"
-          >
-            HTML5
-          </h4>
+          <h4 className="skills__details--name ">HTML5</h4>
         </div>
 
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.1s">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +50,7 @@ const Skills = () => {
           <h4 className="skills__details--name">Javascript</h4>
         </div>
 
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.2s">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +68,7 @@ const Skills = () => {
           <h4 className="skills__details--name">CSS3</h4>
         </div>
 
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.3s">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +86,7 @@ const Skills = () => {
           <h4 className="skills__details--name">React JS</h4>
         </div>
 
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.4s">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +104,7 @@ const Skills = () => {
           <h4 className="skills__details--name">Sass</h4>
         </div>
 
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.5s">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +122,7 @@ const Skills = () => {
           <h4 className="skills__details--name">Git</h4>
         </div>
 
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.6s">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +140,7 @@ const Skills = () => {
           <h4 className="skills__details--name">MySql</h4>
         </div>
 
-        <div className="skills__details">
+        <div className="skills__details wow fadeIn" data-wow-delay="0.7s">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
