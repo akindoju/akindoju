@@ -7,6 +7,8 @@
   &__details {
     padding: 5rem;
     position: relative;
+    align-self: flex-start;
+    width: 100%;
 
     &::after {
       content: "";
@@ -40,14 +42,12 @@
         font-family: "Montserrat", sans-serif;
         font-size: 1.5rem;
         color: #333;
-        margin-bottom: 2rem;
       }
 
       p {
         font-family: "Montserrat", sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: #333;
-        margin-bottom: 2rem;
       }
     }
   }

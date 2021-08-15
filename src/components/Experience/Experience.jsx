@@ -17,12 +17,8 @@ const Experience = () => {
 
         <div className="experience__details--3">
           <h1> Responsibilities: </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Praesentium temporibus excepturi sed officia adipisci quibusdam
-            velit perferendis aliquam id sequi quisquam dolores nemo esse,
-            minima minus voluptate nesciunt eaque obcaecati!
-          </p>
+          <p>Created clothing E-Commerce website.</p>
+          <p>Created app to detect faces on image. etc.</p>
         </div>
       </div>
 
@@ -39,10 +35,12 @@ const Experience = () => {
         <div className="experience__details--3">
           <h1> Responsibilities: </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Praesentium temporibus excepturi sed officia adipisci quibusdam
-            velit perferendis aliquam id sequi quisquam dolores nemo esse,
-            minima minus voluptate nesciunt eaque obcaecati!
+            Refactored vanilla javascript code with react js which improved page
+            loading.
+          </p>
+          <p>
+            Improved server connection with databse using knex, hence easing the
+            process. etc.
           </p>
         </div>
       </div>
