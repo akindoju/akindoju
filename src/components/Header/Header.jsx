@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import "./Header.scss";
 
 const Header = () => {
@@ -14,10 +15,18 @@ const Header = () => {
   return (
     <section className="headerContainer">
       <ul className={navBarActive ? "navigation active" : "navigation"}>
-        <li>Skills</li>
-        <li>Experience</li>
-        <li>Project</li>
-        <li>About</li>
+        <Link to="skills" smooth duration={500}>
+          <li>Skills</li>
+        </Link>
+        <Link to="experience" smooth duration={500}>
+          <li>Experience</li>
+        </Link>
+        <Link to="projects" smooth duration={500}>
+          <li>Project</li>
+        </Link>
+        <Link to="about" smooth duration={500}>
+          <li>About</li>
+        </Link>
       </ul>
 
       <div className="header">

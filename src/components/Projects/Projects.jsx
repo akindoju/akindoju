@@ -7,7 +7,7 @@ import css_project from "../../img/css_project.jpg";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h1 className="sectionTitle">Projects</h1>
 
       <div className="projects__container">

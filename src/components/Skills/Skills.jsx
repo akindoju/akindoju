@@ -9,7 +9,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h1 className="sectionTitle">Skills</h1>
 
       <div className="skills__content">
