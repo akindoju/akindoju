@@ -37,7 +37,7 @@ const Header = () => {
 
         <div className="header__icons">
           <a
-            href="https://www.linkedin.com/in/olusola-John Doe-4123551a7/"
+            href="https://www.linkedin.com/in/olusola-akindoju-4123551a7/"
             target="_blank"
             rel="noreferrer"
           >
