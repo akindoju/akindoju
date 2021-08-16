@@ -22,6 +22,14 @@
       padding: 2rem 8rem;
     }
 
+    @media only screen and (max-width: 500px) {
+      padding: 2rem 6rem;
+    }
+
+    @media only screen and (max-width: 300px) {
+      padding: 2rem 3rem;
+    }
+
     &::after {
       content: "";
       display: block;
@@ -41,8 +49,6 @@
     }
 
     &--text {
-      align-self: flex-start;
-
       h1 {
         display: inline;
         font-family: "Montserrat", sans-serif;
@@ -51,6 +57,7 @@
         text-transform: uppercase;
         position: relative;
         border-bottom: 1.5px solid #333;
+        line-height: 3rem;
 
         @media only screen and (max-width: 600px) {
           font-size: 2rem;

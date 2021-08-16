@@ -6,7 +6,7 @@ const Header = () => {
   const [navBarActive, setNavBarActive] = useState(false);
 
   const settingNavBar = () => {
-    window.scrollY >= 650 ? setNavBarActive(true) : setNavBarActive(false);
+    window.scrollY >= 600 ? setNavBarActive(true) : setNavBarActive(false);
   };
 
   window.addEventListener("scroll", settingNavBar);
@@ -27,12 +27,11 @@ const Header = () => {
           <li>About</li>
         </Link>
       </ul>
+      {/* )} */}
 
       <div className="header">
         <div className="header__title">
-          {/* <h1>Akindoju Olusola</h1>
-          <h4>Software Developer</h4> */}
-          <h1>Johnson Doelington</h1>
+          <h1>Akindoju Olusola</h1>
           <h4>Software Developer</h4>
         </div>
 

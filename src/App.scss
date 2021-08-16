@@ -52,6 +52,10 @@ body {
   margin-bottom: 7rem;
   position: relative;
 
+  @media only screen and (max-width: 500px) {
+    font-size: 4rem;
+  }
+
   &::after {
     content: "";
     display: block;
