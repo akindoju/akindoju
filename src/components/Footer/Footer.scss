@@ -13,6 +13,10 @@
     color: white;
     width: 60%;
     font-style: italic;
+
+    @media only screen and (max-width: 700px) {
+      width: 80%;
+    }
   }
 
   h4 {
@@ -32,6 +36,10 @@
       color: white;
       text-decoration: none;
       position: relative;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 1.7rem;
+      }
 
       &::after {
         content: "";

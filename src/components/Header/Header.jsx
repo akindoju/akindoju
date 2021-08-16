@@ -7,7 +7,6 @@ const Header = () => {
 
   const settingNavBar = () => {
     window.scrollY >= 650 ? setNavBarActive(true) : setNavBarActive(false);
-    console.log(window.scrollY);
   };
 
   window.addEventListener("scroll", settingNavBar);
@@ -31,13 +30,15 @@ const Header = () => {
 
       <div className="header">
         <div className="header__title">
-          <h1>Akindoju Olusola</h1>
+          {/* <h1>Akindoju Olusola</h1>
+          <h4>Software Developer</h4> */}
+          <h1>Johnson Doelington</h1>
           <h4>Software Developer</h4>
         </div>
 
         <div className="header__icons">
           <a
-            href="https://www.linkedin.com/in/olusola-akindoju-4123551a7/"
+            href="https://www.linkedin.com/in/olusola-John Doe-4123551a7/"
             target="_blank"
             rel="noreferrer"
           >
