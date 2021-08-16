@@ -21,7 +21,7 @@ const Header = () => {
           <li>Experience</li>
         </Link>
         <Link to="projects" smooth duration={500}>
-          <li>Project</li>
+          <li>Projects</li>
         </Link>
         <Link to="footer" smooth duration={500}>
           <li>About</li>
