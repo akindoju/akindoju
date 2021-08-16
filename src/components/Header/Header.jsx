@@ -27,7 +27,6 @@ const Header = () => {
           <li>About</li>
         </Link>
       </ul>
-      {/* )} */}
 
       <div className="header">
         <div className="header__title">
