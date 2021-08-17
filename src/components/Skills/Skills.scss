@@ -7,6 +7,10 @@
   margin-top: 10%;
   height: 70vh;
 
+  @media only screen and (max-height: 280px) {
+    margin-top: 20%;
+  }
+
   &__content {
     &--1,
     &--2 {
