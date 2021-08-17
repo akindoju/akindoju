@@ -30,7 +30,7 @@ const Header = () => {
 
       <div className="header">
         <div className="header__title">
-          <h1>John Doe</h1>
+          <h1>Akindoju Olusola</h1>
           <h4>Software Developer</h4>
         </div>
 
