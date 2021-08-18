@@ -6,7 +6,7 @@ const Header = () => {
   const [navBarActive, setNavBarActive] = useState(false);
 
   const settingNavBar = () => {
-    window.scrollY >= 600 ? setNavBarActive(true) : setNavBarActive(false);
+    window.scrollY >= 100 ? setNavBarActive(true) : setNavBarActive(false);
   };
 
   window.addEventListener("scroll", settingNavBar);
