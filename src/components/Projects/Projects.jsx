@@ -35,7 +35,8 @@ const Projects = () => {
           </div>
 
           <h4>
-            Project created with react js, sass, redux to take and store Notes.
+            Project created with React JS, Sass, Redux to take and store Notes,
+            and is also a Progressive Web App.
           </h4>
         </div>
       </div>

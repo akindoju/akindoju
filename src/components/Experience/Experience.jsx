@@ -17,8 +17,13 @@ const Experience = () => {
 
         <div className="experience__details--3">
           <h1> Responsibilities: </h1>
-          <p>Created clothing E-Commerce website.</p>
-          <p>Created app to detect faces on image. etc.</p>
+          <p>
+            Created website using the standard HTML,CSS, amd Javascript
+            practices
+          </p>
+          <p>
+            Used REST API to save and generate data dynamically from a database.
+          </p>
         </div>
       </div>
 
@@ -35,12 +40,12 @@ const Experience = () => {
         <div className="experience__details--3">
           <h1> Responsibilities: </h1>
           <p>
-            Refactored vanilla javascript code with react js which improved page
-            loading.
+            Refactored Vanilla Javascript code with React JS for simplicity and
+            better performance.
           </p>
           <p>
-            Improved server connection with databse using knex, hence easing the
-            process. etc.
+            Implemented changes and updates to Javascript applications where
+            necessary.
           </p>
         </div>
       </div>
