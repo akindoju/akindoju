@@ -17,9 +17,9 @@ const Header = () => {
         <Link to="skills" smooth duration={500}>
           <li>Skills</li>
         </Link>
-        <Link to="experience" smooth duration={500}>
+        {/* <Link to="experience" smooth duration={500}>
           <li>Experience</li>
-        </Link>
+        </Link> */}
         <Link to="projects" smooth duration={500}>
           <li>Projects</li>
         </Link>
