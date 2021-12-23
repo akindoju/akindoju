@@ -9,8 +9,8 @@ const Footer = () => {
       </h1>
 
       <p>
-        I wrote my first line of code in my second year of university and fast
-        forward a year later, I am a javascript react developer. During that
+        Hello! My name is Olusola Akindoju. I wrote my first line of code back
+        in 2018 and have since progressed to become a Web developer. During that
         time I have been able to learn the fundamentals of web developement. I
         am passionate about improving my skills and learning new technologies.
       </p>
