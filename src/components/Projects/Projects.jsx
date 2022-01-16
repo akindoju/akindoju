@@ -4,7 +4,7 @@ import converse from "../../img/converse.png";
 import crown_clothing from "../../img/crown_clothing.png";
 import face_detector from "../../img/face_detector.png";
 import konga from "../../img/konga.png";
-import css_project from "../../img/css_project.jpg";
+import itis from "../../img/itis.png";
 
 const Projects = () => {
   return (
@@ -77,21 +77,21 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        <img src={converse} alt="converse" />
+        <img src={itis} alt="Itis" />
 
         <div className="projects__container--text">
-          <h1>Converse</h1>
+          <h1>Itis</h1>
 
           <div className="projects__container--text-links">
             <a
-              href="https://akindoju-converse.netlify.app/"
+              href="https://akindoju-itis.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
               Demo
             </a>
             <a
-              href="https://github.com/akindoju/converse-front"
+              href="https://github.com/akindoju/itis"
               target="_blank"
               rel="noreferrer"
             >
@@ -100,10 +100,8 @@ const Projects = () => {
           </div>
 
           <h4>
-            {/* Project created with react js, css, and socket io on the client and
-            server side, to simulate a chat room. */}
-            A real-time communication platform that can support more than two
-            users at once developed with React JS, Socket-io, and Sass.
+            Web application created with React JS and Sass acting as an Online
+            Food delivery business.
           </h4>
         </div>
       </div>
@@ -139,21 +137,21 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        <img src={css_project} alt="CSS Project" />
+        <img src={converse} alt="converse" />
 
         <div className="projects__container--text">
-          <h1>Blog</h1>
+          <h1>Converse</h1>
 
           <div className="projects__container--text-links">
             <a
-              href="https://akindoju-css.netlify.app/"
+              href="https://akindoju-converse.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
               Demo
             </a>
             <a
-              href="https://github.com/akindoju/akindoju-css"
+              href="https://github.com/akindoju/converse-front"
               target="_blank"
               rel="noreferrer"
             >
@@ -162,7 +160,8 @@ const Projects = () => {
           </div>
 
           <h4>
-            Project created with react js, sass, as a landing page for blogging.
+            A real-time communication platform that can support more than two
+            users at once developed with React JS, Socket-io, and Sass.
           </h4>
         </div>
       </div>

@@ -10,7 +10,7 @@ const Footer = () => {
 
       <p>
         Hello! My name is Olusola Akindoju. I wrote my first line of code back
-        in 2018 and have since progressed to become a Web developer. During that
+        in 2019 and have since progressed to become a Web developer. During that
         time I have been able to learn the fundamentals of web developement. I
         am passionate about improving my skills and learning new technologies.
       </p>
