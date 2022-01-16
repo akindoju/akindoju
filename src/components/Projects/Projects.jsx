@@ -44,6 +44,39 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
+        <img src={face_detector} alt="face_detector" />
+
+        <div className="projects__container--text">
+          <h1>Face Detector</h1>
+
+          <div className="projects__container--text-links">
+            <a
+              href="https://akindoju-facedetector.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/akindoju/Face-Detector"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Repo
+            </a>
+          </div>
+
+          <h4>
+            Using the Clarifai machine vision API, this app finds faces in
+            photos. It can sign up and log in, and it uses Redis to store
+            sessions. On the frontend, it's built with React JS and Sass. For
+            badge rankings and other functionalities, Node.js, express,
+            PostgreSQL, and AWS Lambda are used.
+          </h4>
+        </div>
+      </div>
+
+      <div className="projects__container">
         <img src={converse} alt="converse" />
 
         <div className="projects__container--text">
@@ -101,38 +134,6 @@ const Projects = () => {
           <h4>
             Konga clone project created with React JS and sass, to illustrate
             extensively the power of css grid and flexbox. Desktop view only.
-          </h4>
-        </div>
-      </div>
-
-      <div className="projects__container">
-        <img src={face_detector} alt="face_detector" />
-
-        <div className="projects__container--text">
-          <h1>Face Detector</h1>
-
-          <div className="projects__container--text-links">
-            <a
-              href="https://webfacedetector.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-            <a
-              href="https://github.com/akindoju/Face-Detector"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Repo
-            </a>
-          </div>
-
-          <h4>
-            This software detects faces in pictures using the Clarifai machine
-            vision API. It has the ability to sign up and log in. It's made with
-            React JS and tachyons on the frontend. Node.js, express, PostgreSQL,
-            and other technologies are used in the backend.
           </h4>
         </div>
       </div>
