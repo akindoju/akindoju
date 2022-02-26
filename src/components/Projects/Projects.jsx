@@ -44,6 +44,39 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
+        {/* <img src={hackerGist} alt="hackerGist" /> */}
+
+        <div className="projects__container--text">
+          <h1>Hacker Gist</h1>
+
+          <div className="projects__container--text-links">
+            <a
+              href="https://drive.google.com/file/d/1gnq-yvYDfp0VBB6ohegH_tgOKJissOSb/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/akindoju/hackernews-mobile"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Repo
+            </a>
+          </div>
+
+          <h4>
+            React Native project that utilizes the Hacker News API to display
+            new stories. It has the ability to Lazy load and paginate the
+            stories. Created with Redux, React-Skeletons, Redux-Persist,
+            React-Navigation v6, and implements SQLite to store registered
+            users.
+          </h4>
+        </div>
+      </div>
+
+      <div className="projects__container">
         <img src={face_detector} alt="face_detector" />
 
         <div className="projects__container--text">
