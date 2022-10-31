@@ -9,10 +9,11 @@ const Footer = () => {
       </h1>
 
       <p>
-        Hello! My name is Olusola Akindoju. I wrote my first line of code back
-        in 2019 and have since progressed to become a Web developer. During that
-        time I have been able to learn the fundamentals of web developement. I
-        am passionate about improving my skills and learning new technologies.
+        Hello! My name is Olusola Akindoju and I am a Mobile and Web Developer.
+        I enjoy creating applications that scale. Some of the tools I use
+        include: React JS, React Native, CSS, SASS, Redux, e.t.c. I love
+        learning and I'm always adding new skills and improving the quality of
+        my products.
       </p>
 
       <h4>Contact:</h4>

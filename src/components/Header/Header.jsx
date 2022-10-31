@@ -17,9 +17,9 @@ const Header = () => {
         <Link to="skills" smooth duration={500}>
           <li>Skills</li>
         </Link>
-        {/* <Link to="experience" smooth duration={500}>
+        <Link to="experience" smooth duration={500}>
           <li>Experience</li>
-        </Link> */}
+        </Link>
         <Link to="projects" smooth duration={500}>
           <li>Projects</li>
         </Link>
@@ -31,7 +31,7 @@ const Header = () => {
       <div className="header">
         <div className="header__title">
           <h1>Akindoju Olusola</h1>
-          <h4>Software Developer</h4>
+          <h4>Mobile and Web Developer</h4>
         </div>
 
         <div className="header__icons">

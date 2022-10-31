@@ -5,14 +5,19 @@ import crown_clothing from "../../img/crown_clothing.png";
 import face_detector from "../../img/face_detector.png";
 import konga from "../../img/konga.png";
 import itis from "../../img/itis.png";
+import hackerGist from "../../img/hackerGist.png";
 
 const Projects = () => {
   return (
     <section className="projects" id="projects">
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle" style={{ alignSelf: "center" }}>
+        Projects
+      </h1>
 
       <div className="projects__container">
-        <img src={crown_clothing} alt="crown_clothing" />
+        <div className="projects__container--imgContainer">
+          <img src={crown_clothing} alt="crown_clothing" />
+        </div>
 
         <div className="projects__container--text">
           <h1>Crown Clothing</h1>
@@ -44,7 +49,12 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        {/* <img src={hackerGist} alt="hackerGist" /> */}
+        <div
+          className="projects__container--imgContainer"
+          style={{ paddingBottom: "200px" }}
+        >
+          <img src={hackerGist} alt="hackerGist" />
+        </div>
 
         <div className="projects__container--text">
           <h1>Hacker Gist</h1>
@@ -77,7 +87,9 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        <img src={face_detector} alt="face_detector" />
+        <div className="projects__container--imgContainer">
+          <img src={face_detector} alt="face_detector" />
+        </div>
 
         <div className="projects__container--text">
           <h1>Face Detector</h1>
@@ -110,7 +122,9 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        <img src={itis} alt="Itis" />
+        <div className="projects__container--imgContainer">
+          <img src={itis} alt="Itis" />
+        </div>
 
         <div className="projects__container--text">
           <h1>Itis</h1>
@@ -140,7 +154,9 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        <img src={konga} alt="Barcode and Qr Code generator" />
+        <div className="projects__container--imgContainer">
+          <img src={konga} alt="Barcode and Qr Code generator" />
+        </div>
 
         <div className="projects__container--text">
           <h1>Konga Clone</h1>
@@ -170,7 +186,9 @@ const Projects = () => {
       </div>
 
       <div className="projects__container">
-        <img src={converse} alt="converse" />
+        <div className="projects__container--imgContainer">
+          <img src={converse} alt="converse" />
+        </div>
 
         <div className="projects__container--text">
           <h1>Converse</h1>
