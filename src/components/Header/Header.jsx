@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import "./Header.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Header = () => {
   const [navBarActive, setNavBarActive] = useState(false);
@@ -10,6 +12,10 @@ const Header = () => {
   };
 
   window.addEventListener("scroll", settingNavBar);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <section className="headerContainer">
@@ -30,7 +36,122 @@ const Header = () => {
 
       <div className="header">
         <div className="header__title">
-          <h1>Akindoju Olusola</h1>
+          <h1>
+            {" "}
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              O
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              l
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              u
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              s
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              o
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              l
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              a
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+              style={{ display: "inline" }}
+            >
+              {" "}
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              A
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              k
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              i
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              n
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              d
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              o
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              j
+            </span>
+            <span
+              data-aos="fade-right"
+              data-aos-once="false"
+              data-aos-delay="2000"
+            >
+              u
+            </span>
+          </h1>
           <h4>Mobile and Web Developer</h4>
         </div>
 
