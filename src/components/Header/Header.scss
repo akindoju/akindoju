@@ -118,11 +118,11 @@
   }
 }
 
-.parallaxBg {
+.headerParallaxBg {
+  background-image: linear-gradient(180deg, #00000012 55%, rgb(20, 20, 20) 100%),
+    url(../../img/pool.webp);
   background-attachment: fixed;
   background-color: transparent;
-  background-image: linear-gradient(180deg, #00000012 55%, #1a191d 100%),
-    url(../../img/pool.jpg);
   background-size: cover;
   background-position: 50%;
   position: absolute;

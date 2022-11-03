@@ -41,14 +41,15 @@ body {
 }
 
 .app {
-  background-color: #1a191d;
+  background-color: rgb(20, 20, 20);
+  // background-color: #eceaea;
   cursor: auto;
 }
 
 .sectionTitle {
   font-family: "Montserrat", sans-serif;
   font-size: 5rem;
-  color: #333;
+  color: white;
   text-transform: uppercase;
   margin-bottom: 7rem;
   position: relative;
@@ -66,7 +67,7 @@ body {
     bottom: -5px;
     transform: translateX(-50%);
     height: 2px;
-    background: #5c5c5c;
+    background: white;
     width: 70%;
     backface-visibility: none;
   }

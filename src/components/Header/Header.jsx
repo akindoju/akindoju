@@ -4,31 +4,21 @@ import "./Header.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Header = () => {
+const Header = ({ offsetY }) => {
   const [navBarActive, setNavBarActive] = useState(false);
-  const [offsetY, setOffsetY] = useState(0);
-
-  const settingNavBar = () => {
-    setOffsetY(window.pageYOffset);
-    window.scrollY >= 1000 ? setNavBarActive(true) : setNavBarActive(false);
-  };
 
   useEffect(() => {
     AOS.init();
   }, []);
 
   useEffect(() => {
-    window.addEventListener("scroll", settingNavBar);
-
-    return () => {
-      window.removeEventListener("scroll", settingNavBar);
-    };
-  }, []);
+    offsetY >= 1000 ? setNavBarActive(true) : setNavBarActive(false);
+  }, [offsetY]);
 
   return (
     <>
       <div
-        className="parallaxBg"
+        className="headerParallaxBg"
         style={{ transform: `translateY(${offsetY * 0.4}px)` }}
       />
       <section>
