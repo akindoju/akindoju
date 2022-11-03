@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import WOW from "wowjs";
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Skills.scss";
 
 const Skills = () => {
   useEffect(() => {
-    const wow = new WOW.WOW();
-    wow.init();
+    AOS.init();
   }, []);
 
   return (
@@ -14,7 +14,14 @@ const Skills = () => {
 
       <div className="skills__content">
         <div className="skills__content--1">
-          <div className="skills__details wow fadeIn" data-wow-delay="0.1s">
+          <div
+            className="skills__details"
+            data-aos="fade-right"
+            // data-aos-once="false"
+            data-aos-delay="500"
+            data-aos-easing="ease-out-back"
+            data-aos-duration="800"
+          >
             <svg
               className="skills__details--icon"
               version="1.1"
