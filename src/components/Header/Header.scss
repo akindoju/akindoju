@@ -152,9 +152,10 @@
     h1 {
       font-family: "Alegreya Sans SC", sans-serif;
       font-family: "Montserrat", sans-serif;
-      font-size: 11.5rem;
+      font-size: 9rem;
       font-weight: 100;
       color: white;
+      text-transform: uppercase;
 
       @media only screen and (max-width: 300px) {
         font-size: 4rem;

@@ -24,25 +24,6 @@ const App = () => {
 
   return (
     <div className="app">
-      {/* <AnimatedCursor
-        innerSize={12}
-        outerSize={40}
-        color="255, 255, 255"
-        outerAlpha={0.1}
-        innerScale={1.02}
-        outerScale={1.1}
-        outerStyle={{
-          border: "1px solid #fff",
-          background: "transparent",
-          zIndex: 9999,
-        }}
-        innerStyle={{
-          border: "1px solid #fff",
-          background: "rgba(255,255,255,0.5)",
-          cursor: "pointer",
-          zIndex: 9999,
-        }}
-      /> */}
       <Header offsetY={offsetY} />
       <Skills offsetY={offsetY} />
       <Experience />
