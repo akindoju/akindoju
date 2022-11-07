@@ -1,13 +1,11 @@
-import React from "react";
 import "./Projects.scss";
-import converse from "../../img/converse.png";
-import crown_clothing from "../../img/crown_clothing.png";
-import face_detector from "../../img/face_detector.png";
-import konga from "../../img/konga.png";
+import React from "react";
 import itis from "../../img/itis.png";
+import konga from "../../img/konga.png";
 import hackerGist from "../../img/hackerGist.png";
+import crown_clothing from "../../img/crown_clothing.png";
 
-const Projects = () => {
+const Projects = ({ offsetY }) => {
   return (
     <section className="projects" id="projects">
       <h1 className="sectionTitle" style={{ alignSelf: "center" }}>
@@ -15,6 +13,19 @@ const Projects = () => {
       </h1>
 
       <div className="projects__container">
+        <div
+          className="projects__container--item projects__container--item-1"
+          style={{ transform: `translateY(${offsetY * 0.4}px)` }}
+        />
+
+        <div className="projects__container--item projects__container--item-2" />
+
+        <div className="projects__container--item projects__container--item-3" />
+
+        <div className="projects__container--item projects__container--item-4" />
+      </div>
+
+      {/* <div className="projects__container">
         <div className="projects__container--imgContainer">
           <img src={crown_clothing} alt="crown_clothing" />
         </div>
@@ -215,7 +226,7 @@ const Projects = () => {
             users at once developed with React JS, Socket-io, and Sass.
           </h4>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

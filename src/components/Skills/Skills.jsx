@@ -18,7 +18,7 @@ const Skills = ({ offsetY }) => {
           data-aos-delay="0"
           data-aos-easing="ease-out"
           data-aos-duration="750"
-          style={{ transform: `translateY(${offsetY * 0.5}px)` }}
+          // style={{ transform: `translateY(${offsetY * 0.5}px)` }}
         />
 
         <h1
