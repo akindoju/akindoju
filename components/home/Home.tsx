@@ -10,25 +10,20 @@ import { Contact } from "./contact/Contact";
 
 export const Home = () => {
   return (
-    <>
-      <div className={styles.home}>
-        <SideBar />
-        <main>
-          <Heading />
-          <Hero />
-          <About />
-          <Experience />
-          <Projects />
-          <Contact />
-          <div
-            style={{
-              height: "200px",
-              background:
-                "linear-gradient(180deg, var(--background), var(--background-dark))",
-            }}
-          />
-        </main>
-      </div>
-    </>
+    <main>
+      <Heading />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
+      <div
+        style={{
+          height: "200px",
+          background:
+            "linear-gradient(180deg, var(--background), var(--background-dark))",
+        }}
+      />
+    </main>
   );
 };
