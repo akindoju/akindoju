@@ -1,5 +1,5 @@
 import { MouseEventHandler } from "react";
-import styles from "./standardbutton.module.scss";
+import styles from "./StandardBtn.module.scss";
 
 interface Props {
   children: string | JSX.Element;

@@ -1,12 +1,10 @@
 import React from "react";
-import { SideBar } from "../nav/SideBar";
-import { Hero } from "./hero/Hero";
-import styles from "./home.module.scss";
-import { Heading } from "../nav/Heading";
-import { About } from "./about/About";
-import { Projects } from "./projects/Projects";
-import { Experience } from "./experience/Experience";
-import { Contact } from "./contact/Contact";
+import { Hero } from "../Hero/Hero";
+import { Heading } from "../Heading/Heading";
+import { About } from "../About/About";
+import { Projects } from "../Projects/Projects";
+import { Experience } from "../Experience/Experience";
+import { Contact } from "../Contact/Contact";
 
 export const Home = () => {
   return (

@@ -1,6 +1,6 @@
 import styles from "./stats.module.scss";
 import { AiFillCode, AiFillSmile } from "react-icons/ai";
-import { Reveal } from "@/components/utils/Reveal";
+import { Reveal } from "@/utils/Reveal";
 
 export const Stats = () => {
   return (

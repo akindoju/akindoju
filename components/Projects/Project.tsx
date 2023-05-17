@@ -1,9 +1,9 @@
-import { Reveal } from "@/components/utils/Reveal";
+import { Reveal } from "@/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
-import { ProjectModal } from "./ProjectModal";
+import { ProjectModal } from "../ProjectModal/ProjectModal";
 import styles from "./projects.module.scss";
 
 interface Props {

@@ -1,4 +1,4 @@
-import { SectionHeader } from "@/components/utils/SectionHeader";
+import { SectionHeader } from "@/utils/SectionHeader";
 import { ExperienceItem } from "./ExperienceItem";
 
 export const Experience = () => {

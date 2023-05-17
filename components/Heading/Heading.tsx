@@ -1,7 +1,7 @@
 import styles from "./heading.module.scss";
 import { useEffect, useState } from "react";
-import { MyLinks } from "./components/MyLinks";
-import { OutlineButton } from "../buttons/OutlineButton";
+import { MyLinks } from "../MyLinks";
+import { OutlineButton } from "../OutlineBtn/OutlineBtn";
 import { motion } from "framer-motion";
 import { AiOutlineAlignRight } from "react-icons/ai";
 

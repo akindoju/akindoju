@@ -1,8 +1,8 @@
-import { MyLinks } from "@/components/nav/components/MyLinks";
-import { Reveal } from "@/components/utils/Reveal";
-import { SectionHeader } from "@/components/utils/SectionHeader";
+import { MyLinks } from "@/components/MyLinks";
+import { Reveal } from "@/utils/Reveal";
+import { SectionHeader } from "@/utils/SectionHeader";
 import styles from "./about.module.scss";
-import { Stats } from "./Stats";
+import { Stats } from "../Stats/Stats";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const About = () => {

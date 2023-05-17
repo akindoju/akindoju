@@ -1,6 +1,6 @@
-import { StandardButton } from "@/components/buttons/StandardButton";
-import { Reveal } from "@/components/utils/Reveal";
-import { DotGrid } from "./DotGrid";
+import { StandardButton } from "@/components/StandartBtn/StandardBtn";
+import { Reveal } from "@/utils/Reveal";
+import { DotGrid } from "../DotGrid/DotGrid";
 import styles from "./hero.module.scss";
 
 export const Hero = () => {

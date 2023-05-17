@@ -1,4 +1,4 @@
-import styles from "./headinglinks.module.scss";
+import styles from "./Heading/headinglinks.module.scss";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Link from "next/link";
 import { motion } from "framer-motion";
