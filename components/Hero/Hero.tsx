@@ -1,7 +1,7 @@
 import { StandardButton } from "@/components/StandartBtn/StandardBtn";
 import { Reveal } from "@/utils/Reveal";
 import { DotGrid } from "../DotGrid/DotGrid";
-import styles from "./hero.module.scss";
+import styles from "./Hero.module.scss";
 
 export const Hero = () => {
   return (
@@ -9,20 +9,18 @@ export const Hero = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            Hey, I&apos;m Bob<span>.</span>
+            Hey, I&apos;m Sola<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I&apos;m a <span>Full Stack Developer</span>
+            I'm a <span>Frontend Developer</span>
           </h2>
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I&apos;ve spent the last 5 years building and scaling software for
-            some pretty cool companies. I also teach people to paint online
-            (incase you&apos;ve got an empty canvas layin&apos; around 🎨).
-            Let&apos;s connect!
+            I have spent the last 3 years crafting captivating digital
+            experiences through elegant code and innovative designs.
           </p>
         </Reveal>
         <Reveal>

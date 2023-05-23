@@ -1,4 +1,4 @@
-import styles from "./heading.module.scss";
+import styles from "./Heading.module.scss";
 import { useEffect, useState } from "react";
 import { MyLinks } from "../MyLinks";
 import { OutlineButton } from "../OutlineBtn/OutlineBtn";

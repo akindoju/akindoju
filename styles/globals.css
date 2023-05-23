@@ -52,12 +52,18 @@ a {
   width: 90%;
   margin-inline: auto;
   overflow: hidden;
+  padding-block: 9.6rem;
 }
-
 
 .chip {
   font-size: var(--text-xs);
   background: var(--background-light);
   padding: 0.2rem 0.8rem;
   border-radius: 999px;
+}
+
+@media (min-width: 768px) {
+  .section-wrapper {
+    max-width: 1150px;
+  }
 }

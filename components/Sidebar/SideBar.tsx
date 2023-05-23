@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react";
-import styles from "./sidebar.module.scss";
-import { motion } from "framer-motion";
-import { MyLinks } from "./components/MyLinks";
+import { MyLinks } from "../MyLinks";
 
 export const SideBar = () => {
   return <MyLinks />;

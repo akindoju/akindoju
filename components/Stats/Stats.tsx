@@ -1,4 +1,4 @@
-import styles from "./stats.module.scss";
+import styles from "./Stats.module.scss";
 import { AiFillCode, AiFillSmile } from "react-icons/ai";
 import { Reveal } from "@/utils/Reveal";
 

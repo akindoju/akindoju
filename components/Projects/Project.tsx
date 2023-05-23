@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "../ProjectModal/ProjectModal";
-import styles from "./projects.module.scss";
+import styles from "./Projects.module.scss";
 
 interface Props {
   modalContent: JSX.Element;

@@ -1,5 +1,5 @@
 import { Reveal } from "@/utils/Reveal";
-import styles from "./experience.module.scss";
+import styles from "./Experience.module.scss";
 
 interface Props {
   title: string;
