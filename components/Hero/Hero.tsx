@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            Hey, I&apos;m Sola<span>.</span>
+            Hey, I'm Sola<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
@@ -19,7 +19,7 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I have spent the last 3 years crafting captivating digital
+            I have spent the last couple of years crafting captivating digital
             experiences through elegant code and innovative designs.
           </p>
         </Reveal>

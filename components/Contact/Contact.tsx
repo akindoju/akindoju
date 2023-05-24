@@ -26,7 +26,7 @@ export const Contact = () => {
             <Link href="https://www.twitter.com" target="_blank" rel="nofollow">
               Twitter
             </Link>{" "}
-            if that&apos;s more your speed.
+            if that's more your speed.
           </p>
         </Reveal>
         <Reveal width="100%">

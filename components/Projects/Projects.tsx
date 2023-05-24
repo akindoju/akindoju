@@ -37,8 +37,7 @@ const projects = [
           deployed on Heroku.
         </p>
         <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
+          Because this isn't real, here's some gibberish to fill space {":)"}
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
@@ -75,8 +74,7 @@ const projects = [
           for all of us.
         </p>
         <p>
-          Because this isn&apos;t real, here&apos;s some gibberish to fill space{" "}
-          {":)"}
+          Because this isn't real, here's some gibberish to fill space {":)"}
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
@@ -106,8 +104,8 @@ const projects = [
           This was a fun one.
         </p>
         <p>
-          Since &quot;Zapier for paint&quot; doesn&apos;t mean anything, be
-          creative {":)"}
+          Since &quot;Zapier for paint&quot; doesn't mean anything, be creative{" "}
+          {":)"}
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
@@ -131,7 +129,7 @@ const projects = [
       "I couldn't think of another paint reference app, so here we are. I think you get the idea, right? Use your imagination 🌈",
     modalContent: (
       <>
-        <p>Alright, you got me. I&apos;m all out of paint references.</p>
+        <p>Alright, you got me. I'm all out of paint references.</p>
         <p>
           Point is, use this space to explain a bit further WHAT this project
           is, as well as what YOU contributed to it.

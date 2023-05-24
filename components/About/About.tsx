@@ -1,8 +1,8 @@
-import { MyLinks } from "@/components/MyLinks";
+import { MyLinks } from "@/components/MyLinks/MyLinks";
 import { Reveal } from "@/utils/Reveal";
 import { SectionHeader } from "@/utils/SectionHeader";
 import styles from "./About.module.scss";
-import { Stats } from "../Stats/Stats";
+import { Skills } from "../Skills/Skills";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const About = () => {
@@ -12,46 +12,36 @@ export const About = () => {
       <div className={styles.about}>
         <div>
           <Reveal>
-            <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey! I&apos;m Bob, if you haven&apos;t already gathered that by
-              now. I&apos;m a painter turned software engineer from Daytona,
-              Florida. I specialize in the backend, primarily Node and Rust, but
-              love building with whatever tools are right for the job.
+            <p className={`${styles.aboutText}`}>
+              Hey! My name is Olusola Akindoju, in case you missed it, I'm a
+              Frontend Developer from Abuja, Nigeria. I specialize in the React,
+              Typescript, and SCSS, with supporting tools like Redux, but love
+              building with whatever tools are right for the job.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              I currently work for Google on Google Photos. I also toss in my ¢2
-              with the design systems teams from time to time (once an artist,
-              always an artist, amirite?).
+              I've had good fortune being a member of fantastic teams dedicated
+              to creating amazing user experiences that leave lasting
+              impressions ☺️.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              Outside of work, I still love to paint. Any given Sunday
-              you&apos;ll find me scribbling some happy clouds with my son ☁️ I
-              even teach courses online if you&apos;re looking to learn!
-            </p>
-          </Reveal>
-          <Reveal>
-            <p className={styles.aboutText}>
-              I&apos;m passively looking for new positions where I can merge my
-              love for code with my love for the canvas. If you think
-              you&apos;ve got an opening that I might like, let&apos;s connect
-              🔗
+              Outside of work, you'll often find me exploring the latest trends
+              and advancements in software development, seeking inspiration from
+              both established apps and emerging startups. I believe in the
+              power of staying ahead of the curve, always striving to expand my
+              skills and expertise in this ever-evolving mobile landscape.
             </p>
           </Reveal>
           <Reveal>
             <div className={styles.links}>
-              <div className={styles.linksText}>
-                <span>My links</span>
-                <AiOutlineArrowRight />
-              </div>
               <MyLinks />
             </div>
           </Reveal>
         </div>
-        <Stats />
+        <Skills />
       </div>
     </section>
   );
