@@ -1,7 +1,5 @@
 import styles from "./Heading.module.scss";
 import { useEffect, useState } from "react";
-import { MyLinks } from "../MyLinks/MyLinks";
-import { OutlineButton } from "../OutlineBtn/OutlineBtn";
 import { motion } from "framer-motion";
 import { AiOutlineAlignRight } from "react-icons/ai";
 
@@ -32,9 +30,12 @@ export const Heading = () => {
     <header className={styles.heading_container}>
       {/* <MyLinks /> */}
       <div className={styles.heading}>
-        <OutlineButton onClick={() => window.open("/my-resume.pdf")}>
+        <button
+          onClick={() => window.open("/my-resume.pdf")}
+          className={styles.outlineButton}
+        >
           My resume
-        </OutlineButton>
+        </button>
 
         <motion.nav
           initial={{ x: -70 }}

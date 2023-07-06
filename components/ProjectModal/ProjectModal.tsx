@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
+import { AiOutlineLink } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 
 interface Props {
@@ -56,23 +56,20 @@ export const ProjectModal = ({
         />
         <div className={styles.modalContent}>
           <h4>{title}</h4>
-          <div className={styles.modalTech}>{tech.join(" - ")}</div>
+
+          <Link
+            className={styles.links}
+            target="_blank"
+            rel="nofollow"
+            href={projectLink}
+          >
+            <AiOutlineLink size="2.5rem" style={{ marginRight: "0.4rem" }} />{" "}
+            Live Project
+          </Link>
 
           <div className={styles.suppliedContent}>{modalContent}</div>
 
-          <div className={styles.modalFooter}>
-            <p className={styles.linksText}>
-              Project Links<span>.</span>
-            </p>
-            <div className={styles.links}>
-              <Link target="_blank" rel="nofollow" href={code}>
-                <AiFillGithub /> source code
-              </Link>
-              <Link target="_blank" rel="nofollow" href={projectLink}>
-                <AiOutlineExport /> live project
-              </Link>
-            </div>
-          </div>
+          <div className={styles.modalTech}>{tech.join(" - ")}</div>
         </div>
       </motion.div>
     </div>

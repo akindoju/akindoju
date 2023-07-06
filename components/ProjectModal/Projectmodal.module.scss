@@ -47,12 +47,9 @@
 .modalTech {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2rem;
-
   font-size: var(--text-xs);
   color: var(--brand);
-
-  margin: 0.2rem 0 2.4rem;
+  margin: 1rem 0 2.4rem 0;
 }
 
 .suppliedContent {
@@ -77,20 +74,13 @@
 }
 
 .links {
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
-  gap: 1.2rem;
+  font-size: var(--text-xs);
+  color: var(--brand);
 
-  a {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-
-    font-size: var(--text-xs);
-    color: var(--brand);
-  }
-
-  a:hover {
+  &:hover {
     text-decoration: underline;
   }
 }

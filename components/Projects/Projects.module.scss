@@ -16,15 +16,13 @@
   position: relative;
   border-radius: 0.8rem;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
-    width: 85%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    translate: -50% 20%;
-
-    transition: 0.25s all;
+    object-fit: cover;
+    transition: 0.5s all;
 
     border-radius: 0.4rem;
   }
@@ -49,6 +47,7 @@
 
   a {
     opacity: 0.75;
+    color: var(--brand);
     transition: 0.25s opacity;
   }
 

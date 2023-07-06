@@ -18,7 +18,7 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "Paint.app",
+    title: "Affixdot",
     imgSrc: "project-imgs/example-project.jpg",
     code: "https://www.github.com",
     projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -52,7 +52,7 @@ const projects = [
     ),
   },
   {
-    title: "The Canvas Club",
+    title: "Affixdot Web",
     imgSrc: "project-imgs/example-project.jpg",
     code: "https://www.github.com",
     projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -89,7 +89,7 @@ const projects = [
     ),
   },
   {
-    title: "BrushWire",
+    title: "Maverick",
     imgSrc: "project-imgs/example-project.jpg",
     code: "https://www.github.com",
     projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -120,7 +120,7 @@ const projects = [
     ),
   },
   {
-    title: "Paint Reference 4",
+    title: "Itis",
     imgSrc: "project-imgs/example-project.jpg",
     code: "https://www.github.com",
     projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
