@@ -8,7 +8,7 @@ export default function home() {
         <title>Olusola Akindoju | Frontend Developer</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <Home />
     </>
