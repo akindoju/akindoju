@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# YO! Welcome to the "Steam" developer portfolio template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Steam is a starter template designed to help you land more interviews. Below we'll walk through exactly how you can customize this template to make it your own.
 
-## Available Scripts
+Before we go too far, note that I've provided a video walkthrough of the entire project [HERE](https://youtu.be/hu-XLI3bFX8).
 
-In the project directory, you can run:
+You can also find a live version of this project deployed at [https://steam-portfolio-demo.vercel.app/](https://steam-portfolio-demo.vercel.app/).
 
-### `npm start`
+## Let's get things running
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This template is built on top of [NextJS](https://nextjs.org/), a full stack development framework built on top of React.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+We won't take time here going over exactly how NextJS works on a deep level (to be fair, this project doesn't use Next at a deep level), but if you're interested in learning, their docs are [here](https://nextjs.org/docs/getting-started).
 
-### `npm test`
+At the root of your project, you'll see a `package.json` file defining our dependencies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Most of this is boilerplate, but I will call out the following three dependencies:
 
-### `npm run build`
+- `animejs` -> A javascript animation library, used for the grid animation inside of DotGrid.tsx
+- `framer-motion` -> A react based animation library, used in a hand full of places (anywhere you see `<motion.el />` style components)
+- `sass` -> All styling uses plain CSS and sass modules for this project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Now that's out of the way, you can get your project running by first installing dependencies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+From your terminal, run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+# or
+yarn install
+```
 
-### `npm run eject`
+This will take a minute or two, but once that's done, you should be able to run the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm run dev
+# or
+yarn dev
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will start your project on `localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## The file structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Because this is a NextJS project, we follow the standard NextJS pattern for organizing this project.
 
-## Learn More
+Inside of the `pages/` directly you'll find 3 files:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `_app.tsx` -> A file which wraps around every page in our app. Here we import the Poppins font and include it in our page. You can change to use whatever font you'd like here ([docs](https://nextjs.org/docs/basic-features/font-optimization)).
+- `_document.tsx` -> Essentially the NextJS version of your base "HTML document". Nothing fancy here.
+- `_index.tsx` -> This represents our home route. We include 1 single component here called `<Home />`. Click into this component to begin exploring.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To add MORE routes to your project, see [this doc](https://nextjs.org/docs/basic-features/pages).
 
-### Code Splitting
+Inside of the `styles/` directly you'll find find a global CSS file. This just includes a basic reset, as well as a couple of classes we use throughout the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Inside of the `components/` directory you'll find all of the good stuff. The `components/home/` directory houses the majority of what you'll like want to edit
 
-### Analyzing the Bundle Size
+## Styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Global styling (colors mainly) are defined using CSS variables in the `styles/globals.css` file.
 
-### Making a Progressive Web App
+```
+  --background: rgb(17, 17, 17);
+  --bg-opaque: rgb(17, 17, 17, 0.25);
+  --background-light: rgb(35, 35, 35);
+  --background-dark: rgb(8, 8, 8);
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  --text: rgb(235, 236, 243);
+  --brand: rgb(10, 255, 157);
 
-### Advanced Configuration
+  --text-xs: 1.6rem;
+  --text-sm: 1.8rem;
+  --text-md: 2.2rem;
+  --text-lg: 3.6rem;
+  --text-xl: 5.6rem;
+  --text-2xl: 9.6rem;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The first six variables are the colors for the app. The last six are font sizes. Play around with these a bit to start making it your own.
 
-### Deployment
+## More info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+That's the basics! If you're comfortable digging in yourself, then you should be set.
 
-### `npm run build` fails to minify
+Want a deeper walkthrough??
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[WATCH THE TUTORIAL VIDEO](https://youtu.be/hu-XLI3bFX8)
