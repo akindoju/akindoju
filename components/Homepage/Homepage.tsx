@@ -7,7 +7,7 @@ import { Experience } from "../Experience/Experience";
 import { Contact } from "../Contact/Contact";
 import { Menu } from "../Menu/Menu";
 
-export const Home = () => {
+export const Homepage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const [selected, setSelected] = useState("");
 
