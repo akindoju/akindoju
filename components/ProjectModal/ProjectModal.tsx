@@ -11,7 +11,6 @@ interface Props {
   setIsOpen: Function;
   title: string;
   imgSrc: string;
-  code: string;
   projectLink: string;
   tech: string[];
   modalContent: JSX.Element;
@@ -24,7 +23,6 @@ export const ProjectModal = ({
   imgSrc,
   isOpen,
   title,
-  code,
   tech,
 }: Props) => {
   useEffect(() => {

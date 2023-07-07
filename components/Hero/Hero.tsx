@@ -8,12 +8,12 @@ export const Hero = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            Hey, I'm Sola<span>.</span>
+            Hey, I&apos;m Sola<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
-            I'm a <span>Frontend Developer</span>
+            I&apos;m a <span>Frontend Developer</span>
           </h2>
         </Reveal>
         <Reveal>

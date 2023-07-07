@@ -19,130 +19,115 @@ export const Projects = () => {
 const projects = [
   {
     title: "Affixdot",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Flutter", "MUI", "Python", "FastAPI"],
+    imgSrc: "images/affixdot.png",
+    projectLink: "https://affixdottech.page.link/YaCK",
+    tech: ["React Native", "Typescript", "Firebase", "Redux"],
     description:
-      "A real-time coaching app for students learning to paint. This app is my baby, designed and built on my own.",
+      "An event management application that offers a seamless, intuitive, and feature-rich solution for users and event organizers alike.",
     modalContent: (
       <>
         <p>
-          Pain.app is a real-time coaching app for students learning to paint.
-          This app is my baby, designed and built on my own.
+          An event management application that offers a seamless, intuitive, and
+          feature-rich solution for users and event organizers alike.
         </p>
         <p>
-          The tech stack is based on top of Flutter for the mobile app,
-          connected to a Python & FastAPI backend, with data stored in Postgres,
-          deployed on Heroku.
+          This app leverages your location and interests to bring events
+          happening around you closer.
         </p>
         <p>
-          Because this isn't real, here's some gibberish to fill space {":)"}
+          It also includes group and private chat functionality, allowing users
+          engage in discussions, share their excitement, and coordinate plans
+          with other attendees of the same event or to have personalized
+          interactions.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Users can create profiles, customize their preferences, and save their
+          favorite events. This personalized approach ensures that the app
+          provides tailored event recommendations and delivers a personalized
+          user experience.
         </p>
       </>
     ),
   },
   {
     title: "Affixdot Web",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Node", "Express", "Postgres", "Kafka", "Redis"],
+    imgSrc: "images/affixdot-web.png",
+    projectLink: "https://www.affixdot.com",
+    tech: [
+      "React Native Web",
+      "Typescript",
+      "SCSS & CSS",
+      "Next JS",
+      "Firebase",
+    ],
     description:
-      "A social community for painters to connect with others in their community. I handle everything backend (50K monthly active users).",
+      "This remarkable website exemplifies the skill and expertise of its creator, offering a glimpse into the world of seamless event organization and unforgettable experiences.",
     modalContent: (
       <>
         <p>
-          The Canvas Club is a social community for painters to connect with
-          others in their community.
+          This remarkable website exemplifies the skill and expertise of its
+          creator, offering a glimpse into the world of seamless event
+          organization and unforgettable experiences.
         </p>
         <p>
-          I work primarily on the backend, a collection of Node & Express
-          microservices. Data is stored primarily in Postgres & cached in Redis.
-        </p>
-        <p>
-          The team in total consists of 5 developers. This is a passion project
-          for all of us.
-        </p>
-        <p>
-          Because this isn't real, here's some gibberish to fill space {":)"}
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Crafted with meticulous attention to detail, this website beautifully
+          captures the essence of the event management application. Powered by
+          the cutting-edge technologies of React Native, Firebase, TypeScript,
+          and Redux, it showcases the seamless integration of these tools to
+          deliver a user-centric, feature-rich platform.
         </p>
       </>
     ),
   },
   {
     title: "Maverick",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["NextJS", "Java", "Spring", "AWS Aurora"],
+    imgSrc: "images/maverick.png",
+    projectLink: "https://www.akn-maverick.netlify.app",
+    tech: ["React JS", "Typescript", "SCSS & CSS", "EmailJS"],
     description:
-      "Think Zapier but for paint. Built with a team of four college friends and scaled to > 1 billion requests per day. This was a fun one.",
+      "This website serves as a gateway to a wide array of cutting-edge solutions designed to address real-world challenges across diverse industries.",
     modalContent: (
       <>
         <p>
-          Brush wire is essentially Zapier but for paint. Built with a team of
-          four college friends and scaled to {">"} 1 billion requests per day.
-          This was a fun one.
+          This website serves as a gateway to a wide array of cutting-edge
+          solutions designed to address real-world challenges across diverse
+          industries.
         </p>
         <p>
-          Since &quot;Zapier for paint&quot; doesn't mean anything, be creative{" "}
-          {":)"}
+          {
+            "From the moment you land on the homepage, you'll be greeted by a sleek and intuitive design that exudes professionalism and confidence. The website showcases a deep understanding of client needs, presenting a range of solutions tailored to meet specific requirements."
+          }
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          Embrace the power of possibilities as you explore this website and
+          unlock a world of transformative solutions.
         </p>
       </>
     ),
   },
   {
     title: "Itis",
-    imgSrc: "project-imgs/example-project.jpg",
-    code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["Python", "FastAPI", "SQLAlchemy"],
+    imgSrc: "/images/itis.png",
+    projectLink: "https://www.akn-itis.netlify.app",
+    tech: ["React JS", "Javascript", "Firebase", "SCSS & CSS", "EmailJS"],
     description:
-      "I couldn't think of another paint reference app, so here we are. I think you get the idea, right? Use your imagination 🌈",
+      "Fully functional food delivery platform designed to cater to your cravings, offering a wide array of mouthwatering meals that can be easily searched, added to your cart, and seamlessly ordered for a delightful dining experience.",
     modalContent: (
       <>
-        <p>Alright, you got me. I'm all out of paint references.</p>
         <p>
-          Point is, use this space to explain a bit further WHAT this project
-          is, as well as what YOU contributed to it.
-        </p>
-        <p>You get the idea. Now more lorem {":)"}</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
+          Fully functional exceptional platform designed to cater to your
+          cravings, offering a wide array of mouthwatering meals that can be
+          easily searched, added to your cart, and seamlessly ordered for a
+          delightful dining experience.
         </p>
         <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          The real-time price calculation feature ensures transparency and
+          allows you to stay within your budget.
+        </p>
+        <p>
+          {
+            "The web application offers ability to pay via paystack's multiple options, providing flexibility and convenience"
+          }
         </p>
       </>
     ),

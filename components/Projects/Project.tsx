@@ -14,7 +14,6 @@ interface Props {
   imgSrc: string;
   tech: string[];
   title: string;
-  code: string;
 }
 
 export const Project = ({
@@ -23,7 +22,6 @@ export const Project = ({
   description,
   imgSrc,
   title,
-  code,
   tech,
 }: Props) => {
   const [hovered, setHovered] = useState(false);
@@ -65,8 +63,8 @@ export const Project = ({
             src={imgSrc}
             alt={`An image of the ${title} project.`}
             style={{
-              width: hovered ? "100%" : "85%",
-              height: hovered ? "100%" : "80%",
+              width: hovered ? "100%" : "97%",
+              height: hovered ? "100%" : "95%",
             }}
           />
         </div>
@@ -100,7 +98,6 @@ export const Project = ({
         isOpen={isOpen}
         imgSrc={imgSrc}
         title={title}
-        code={code}
         tech={tech}
       />
     </>

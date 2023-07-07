@@ -1,11 +1,14 @@
 import styles from "./Heading.module.scss";
-import { useEffect, useState } from "react";
+import { FC, SetStateAction, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { AiOutlineAlignRight } from "react-icons/ai";
 
-export const Heading = () => {
-  const [selected, setSelected] = useState("");
-
+export const Heading: FC<{
+  isMenuOpen: boolean;
+  setIsMenuOpen: React.Dispatch<SetStateAction<boolean>>;
+  selected: string;
+  setSelected: React.Dispatch<SetStateAction<string>>;
+}> = ({ setIsMenuOpen, isMenuOpen, selected, setSelected }) => {
   useEffect(() => {
     const sections = document.querySelectorAll(".section-wrapper");
 
@@ -24,11 +27,10 @@ export const Heading = () => {
     const observer = new IntersectionObserver(callback, options);
 
     sections.forEach((section) => observer.observe(section));
-  }, []);
+  }, [setSelected]);
 
   return (
     <header className={styles.heading_container}>
-      {/* <MyLinks /> */}
       <div className={styles.heading}>
         <button
           onClick={() => window.open("/my-resume.pdf")}
@@ -88,7 +90,11 @@ export const Heading = () => {
           </motion.a>
         </motion.nav>
 
-        <AiOutlineAlignRight size="3rem" className={styles.menu} />
+        <AiOutlineAlignRight
+          size="3rem"
+          className={styles.menu}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        />
       </div>
     </header>
   );

@@ -36,6 +36,7 @@ export const ExperienceItem = ({
         <div>
           {description.map((item: string) => (
             <div
+              key={item}
               style={{
                 display: "flex",
                 alignItems: "center",

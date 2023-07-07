@@ -26,7 +26,7 @@
 .menu {
   display: block;
 
-  @media (min-width: 768px) {
+  @media (min-width: 654px) {
     display: none;
   }
 }
@@ -34,7 +34,7 @@
 .sections {
   display: none;
 
-  @media (min-width: 768px) {
+  @media (min-width: 654px) {
     display: flex;
 
     a {
