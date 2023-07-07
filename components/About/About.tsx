@@ -3,7 +3,6 @@ import { Reveal } from "@/utils/Reveal";
 import { SectionHeader } from "@/utils/SectionHeader";
 import styles from "./About.module.scss";
 import { Skills } from "../Skills/Skills";
-import { AiOutlineArrowRight } from "react-icons/ai";
 
 export const About = () => {
   return (

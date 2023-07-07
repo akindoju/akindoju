@@ -1,5 +1,5 @@
 import styles from "./Skills.module.scss";
-import { AiFillCode, AiFillSmile } from "react-icons/ai";
+import { AiFillCode } from "react-icons/ai";
 import { Reveal } from "@/utils/Reveal";
 
 export const Skills = () => {

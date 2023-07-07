@@ -52,19 +52,10 @@ a {
   width: 90%;
   margin-inline: auto;
   overflow: hidden;
-  margin-bottom: 9rem;
+  padding-top: 12rem;
 
   @media (min-width: 768px) {
     max-width: 1150px;
-    margin-bottom: 18rem;
-  }
-
-  &:not(#about) {
-    margin-bottom: 12rem;
-
-    @media (min-width: 768px) {
-      margin-bottom: 18rem;
-    }
   }
 }
 

@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import modalStyles from "../ProjectModal/ProjectModal.module.scss";
 import styles from "./Menu.module.scss";
 import { MdClose } from "react-icons/md";
-import { Reveal } from "@/utils/Reveal";
 
 export const Menu: FC<{
   setIsMenuOpen: React.Dispatch<SetStateAction<boolean>>;

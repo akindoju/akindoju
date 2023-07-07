@@ -1,5 +1,5 @@
 import styles from "./Heading.module.scss";
-import { FC, SetStateAction, useEffect, useState } from "react";
+import { FC, SetStateAction, useEffect } from "react";
 import { motion } from "framer-motion";
 import { AiOutlineAlignRight } from "react-icons/ai";
 
