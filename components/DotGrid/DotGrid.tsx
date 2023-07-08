@@ -6,6 +6,7 @@ export const DotGrid = () => {
   const [dotColor, setDotColor] = useState<string>("");
   const [brandColor, setBrandColor] = useState<string>("");
   const [textColor, setTextColor] = useState<string>("");
+  const [rotateValue, setRotateValue] = useState<number>(180);
 
   const GRID_WIDTH = 25;
   const GRID_HEIGHT = 20;
@@ -20,36 +21,41 @@ export const DotGrid = () => {
     setDotColor(brandColor);
     setBrandColor(brandColor);
     setTextColor(textColor);
+
+    handleDotClick(brandColor, "0");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const handleDotClick = async (e: any) => {
+  const handleDotClick = async (color: string, e?: any) => {
+    if (rotateValue === -90) {
+      setRotateValue(180);
+    } else {
+      setRotateValue(-90);
+    }
     anime({
       targets: ".dot-point",
-      background: dotColor,
+      background: color,
       scale: [
         {
           value: 1.35,
           easing: "easeOutSine",
-          duration: 250,
+          duration: 1200,
         },
-        { value: 1, easing: "easeInOutQuad", duration: 500 },
+        { value: 1, easing: "easeInOutQuad", duration: 1200 },
       ],
-      translateY: [
-        { value: -15, easing: "easeOutSine", duration: 250 },
-        { value: 1, easing: "easeInOutQuad", duration: 500 },
-      ],
+      rotate: [{ value: rotateValue, easing: "easeOutSine", duration: 1200 }],
       opacity: [
-        { value: 0.5, easing: "easeOutSine", duration: 250 },
-        { value: 0.15, easing: "easeInOutQuad", duration: 500 },
+        { value: 0.5, easing: "easeOutSine", duration: 1200 },
+        { value: 0.2, easing: "easeInOutQuad", duration: 1200 },
       ],
       delay: anime.stagger(100, {
         grid: [GRID_WIDTH, GRID_HEIGHT],
-        from: e.target.dataset.index,
+        from: e?.target?.dataset.index,
       }),
       loopBegin: () => {
-        if (dotColor === textColor) {
+        if (color === textColor) {
           setDotColor(brandColor);
-        } else if (dotColor === brandColor) {
+        } else if (color === brandColor) {
           setDotColor(textColor);
         }
       },
@@ -62,7 +68,9 @@ export const DotGrid = () => {
     for (let j = 0; j < GRID_HEIGHT; j++) {
       dots.push(
         <div
-          onClick={handleDotClick}
+          onClick={async (e) => {
+            handleDotClick(dotColor, e);
+          }}
           className={styles.dotWrapper}
           data-index={index}
           key={`${i}-${j}`}
