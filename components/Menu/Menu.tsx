@@ -105,11 +105,11 @@ export const Menu: FC<{
         </TextReveal>
 
         <TextReveal link="projects">
-          <a href="projects">Projects</a>
+          <a href="#projects">Projects</a>
         </TextReveal>
 
         <TextReveal link="contact">
-          <a href="contact">Contact</a>
+          <a href="#contact">Contact</a>
         </TextReveal>
       </div>
     </motion.div>

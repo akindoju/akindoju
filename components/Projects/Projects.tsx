@@ -19,7 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "Affixdot",
-    imgSrc: "images/affixdot.png",
+    imgSrc: "/images/affixdot.png",
     projectLink: "https://affixdottech.page.link/YaCK",
     tech: ["React Native", "Typescript", "Firebase", "Redux"],
     description:
@@ -51,7 +51,7 @@ const projects = [
   },
   {
     title: "Affixdot Web",
-    imgSrc: "images/affixdot-web.png",
+    imgSrc: "/images/affixdot-web.png",
     projectLink: "https://www.affixdot.com",
     tech: [
       "React Native Web",
@@ -81,8 +81,8 @@ const projects = [
   },
   {
     title: "Maverick",
-    imgSrc: "images/maverick.png",
-    projectLink: "https://www.akn-maverick.netlify.app",
+    imgSrc: "/images/maverick.png",
+    projectLink: "https://akn-maverick.netlify.app",
     tech: ["React JS", "Typescript", "SCSS & CSS", "EmailJS"],
     description:
       "This website serves as a gateway to a wide array of cutting-edge solutions designed to address real-world challenges across diverse industries.",
@@ -108,7 +108,7 @@ const projects = [
   {
     title: "Itis",
     imgSrc: "/images/itis.png",
-    projectLink: "https://www.akn-itis.netlify.app",
+    projectLink: "https://akn-itis.netlify.app/",
     tech: ["React JS", "Javascript", "Firebase", "SCSS & CSS", "EmailJS"],
     description:
       "Fully functional food delivery platform designed to cater to your cravings, offering a wide array of mouthwatering meals that can be easily searched, added to your cart, and seamlessly ordered for a delightful dining experience.",

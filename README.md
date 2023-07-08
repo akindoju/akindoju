@@ -11,7 +11,7 @@ This portfolio project serves as a visual representation of my frontend developm
 If you have any questions, suggestions, or would like to collaborate, please feel free to reach out to me. You can contact me via:
 
 - Email: [davidd.akindoju@gmail.com]
-- Website: [https://www.akindoju.vercel.app]
+- Website: [https://www.akindoju.netlify.app]
 - LinkedIn: [https://www.linkedin.com/in/olusola-akindoju-4123551a7/]
 
 Thank you for visiting my frontend portfolio project! I hope you enjoy exploring my work and appreciate your valuable feedback.
