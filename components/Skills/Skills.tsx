@@ -12,10 +12,7 @@ export const Skills = () => {
             <span>Skills</span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">HTML</span>
-            <span className="chip">CSS & SCSS</span>
             <span className="chip">TypeScript</span>
-            <span className="chip">JavaScript</span>
             <span className="chip">React</span>
             <span className="chip">NextJS</span>
             <span className="chip">React Native</span>
@@ -27,6 +24,9 @@ export const Skills = () => {
             <span className="chip">Git</span>
             <span className="chip">Jira</span>
             <span className="chip">Agile Development</span>
+            <span className="chip">HTML</span>
+            <span className="chip">CSS & SCSS</span>
+            <span className="chip">JavaScript</span>
           </div>
         </div>
       </Reveal>

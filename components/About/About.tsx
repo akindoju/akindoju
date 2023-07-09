@@ -12,27 +12,27 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText}`}>
-              Hey! My name is Olusola Akindoju, in case you missed it, I&apos;m
-              a Frontend Developer from Abuja, Nigeria. I specialize in the
-              React, Typescript, and SCSS, with supporting tools like Redux, but
-              love building with whatever tools are right for the job.
+              Hey there! I&apos;m Olusola Akindoju, a passionate Frontend
+              Developer from Nigeria. With a strong focus on TypeScript, React,
+              React Native, and Next.js, I specialize in creating exceptional
+              user experiences. I love exploring the latest tools and libraries,
+              including Redux, and Tailwind, and I believe in using the right
+              tools for each project. My goal is to build robust and visually
+              appealing web applications that leave a lasting impression.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               I&apos;ve had good fortune being a member of fantastic teams
               dedicated to creating amazing user experiences that leave lasting
-              impressions ☺️.
+              impressions.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
               Outside of work, you&apos;ll often find me exploring the latest
-              trends and advancements in software development, seeking
-              inspiration from both established apps and emerging startups. I
-              believe in the power of staying ahead of the curve, always
-              striving to expand my skills and expertise in this ever-evolving
-              mobile landscape.
+              trends and contributing to Open-Source projects, as well as
+              reading and writing for leisure during my spare time.
             </p>
           </Reveal>
           <Reveal>

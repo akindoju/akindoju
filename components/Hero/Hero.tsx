@@ -18,8 +18,9 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            I have spent the last couple of years crafting captivating digital
-            experiences through elegant code and innovative designs.
+            I have dedicated the past few years honing my skills in creating
+            inviting digital experiences through elegant code and innovative
+            designs.
           </p>
         </Reveal>
         <Reveal>
