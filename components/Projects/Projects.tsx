@@ -23,12 +23,12 @@ const projects = [
     projectLink: "https://affixdottech.page.link/YaCK",
     tech: ["React Native", "Typescript", "Firebase", "Redux"],
     description:
-      "An event management application that offers a seamless, intuitive, and feature-rich solution for users and event organizers alike.",
+      "An event management application that offers a seamless, user-friendly, and sophisticated solution for users and event organizers alike.",
     modalContent: (
       <>
         <p>
-          An event management application that offers a seamless, intuitive, and
-          feature-rich solution for users and event organizers alike.
+          An event management application that offers a seamless, user-friendly,
+          and sophisticated solution for users and event organizers alike.
         </p>
         <p>
           This app leverages your location and interests to bring events
@@ -61,20 +61,20 @@ const projects = [
       "Firebase",
     ],
     description:
-      "This remarkable website exemplifies the skill and expertise of its creator, offering a glimpse into the world of seamless event organization and unforgettable experiences.",
+      "A cutting-edge event management web application that effortlessly enhances its mobile app counterpart by offering an array of individual features and an intuitive user interface.",
     modalContent: (
       <>
         <p>
-          This remarkable website exemplifies the skill and expertise of its
-          creator, offering a glimpse into the world of seamless event
-          organization and unforgettable experiences.
+          A cutting-edge event management web application that effortlessly
+          enhances its mobile app counterpart by offering an array of individual
+          features and an intuitive user interface.
         </p>
         <p>
           Crafted with meticulous attention to detail, this website beautifully
           captures the essence of the event management application. Powered by
           the cutting-edge technologies of React Native, Firebase, TypeScript,
-          and Redux, it showcases the seamless integration of these tools to
-          deliver a user-centric, feature-rich platform.
+          and Redux, it demonstrates how these technologies are seamlessly
+          integrated to produce a user-centric, sophisticated platform.
         </p>
       </>
     ),
@@ -85,13 +85,13 @@ const projects = [
     projectLink: "https://akn-maverick.netlify.app",
     tech: ["React JS", "Typescript", "SCSS & CSS", "EmailJS"],
     description:
-      "This website serves as a gateway to a wide array of cutting-edge solutions designed to address real-world challenges across diverse industries.",
+      "Dynamic web application that serves as a gateway to a wide array of cutting-edge solutions designed to address real-world challenges across diverse industries.",
     modalContent: (
       <>
         <p>
-          This website serves as a gateway to a wide array of cutting-edge
-          solutions designed to address real-world challenges across diverse
-          industries.
+          Dynamic web application that serves as a gateway to a wide array of
+          cutting-edge solutions designed to address real-world challenges
+          across diverse industries..
         </p>
         <p>
           {
